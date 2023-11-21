@@ -59,8 +59,7 @@ def maior_subsequencia_binario(arr):
 
     return subsequence
 
-# Exemplo de uso
-lista = [0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15]
+
 print("lista:", test_data)
 # Medir o tempo de execução para a função maior_subsequencia_binario
 result, execution_time = measure_execution_time(maior_subsequencia_binario, test_data)
